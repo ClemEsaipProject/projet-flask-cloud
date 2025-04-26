@@ -1,0 +1,14 @@
+[
+  {
+    "titre": "Conférence DevOps",
+    "date": "2025-05-15",
+    "lieu": "Paris",
+    "description": "Présentation des meilleures pratiques Cloud Native"
+  },
+  {
+    "titre": "Webinaire Kubernetes",
+    "date": "2025-06-10",
+    "lieu": "En ligne",
+    "description": "Introduction à Kubernetes pour débutants"
+  }
+]
