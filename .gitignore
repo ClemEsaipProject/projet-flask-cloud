@@ -1,28 +1,18 @@
-# Fichiers spécifiques Flask/Docker
-.env
-*.env.local
-.env.production
-secrets.ini
-
-# Fichiers Kubernetes sensibles
-kubeconfig.yaml
-*-secret.yaml
-
-# Fichiers de cache et temporaires
-__pycache__/
-.pytest_cache/
-.venv/
-.dockerenv
-
-# Fichiers système
-.DS_Store
-.idea/
+# Fichiers générés par l'IDE
 .vscode/
-*.swp
-*.swo
+.idea/
 
-# Logs et métriques
-logs/
+# Environnements virtuels
+.venv/
+venv/
+
+# Fichiers sensibles
+.env
+*.secret
+secrets.yaml
+
+# Logs et fichiers temporaires
 *.log
-*.csv
-
+*.sqlite
+__pycache__/
+*.py[cod]
