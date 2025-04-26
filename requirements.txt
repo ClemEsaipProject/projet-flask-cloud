@@ -1,0 +1,23 @@
+# === Applications Flask ===
+Flask==3.0.2  # Framework web principal [2]
+Flask-Cors==4.0.0  # Gestion CORS pour les API [2]
+Jinja2==3.1.3  # Moteur de templates HTML [2]
+python-dotenv==1.0.0  # Gestion des variables d'environnement [2]
+
+# === Gestion des Données ===
+PyYAML==6.0.1  # Lecture/écriture YAML [2]
+marshmallow==3.21.1  # Validation des schémas de données [2]
+requests==2.31.0  # Appels HTTP externes [2]
+
+# === Conteneurisation ===
+gunicorn==21.2.0  # Serveur WSGI pour production [2]
+kubernetes==29.0.0  # Client Kubernetes pour intégrations futures [2]
+
+# === Tests et Qualité ===
+pytest==8.0.2  # Framework de tests [2]
+pytest-flask==1.3.0  # Plugins Flask pour pytest [2]
+coverage==7.4.1  # Rapport de couverture de code
+
+# === Développement Local ===
+watchdog==3.0.0  # Rechargement automatique en dev [2]
+python-lsp-server==1.9.0  # IDE helper
