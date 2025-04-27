@@ -1,6 +1,6 @@
 # app.py
 from flask import Flask, jsonify, render_template, request
-from marshmallow import Schema, fields, ValidationError
+from marshmallow import Schema, fields, ValidationError # type: ignore
 import yaml
 import json
 import os
